@@ -1,6 +1,10 @@
-.img img{
+.imagens img{
     width:100%;
     height:300px;
+}
+
+.imagens{
+    padding:20px;
 }
 
 .conteudo{
@@ -17,11 +21,15 @@
 }
 
 .mapa iframe{
-    width: auto;
-    height: 200px;
+    width:auto;
+    height: 15rem;
 }
 
 .sociais img{
-    width: 50px;
-    height: 50px;
+    width:50px;
+    height:50px;
+}
+
+.sociais{
+    padding:20px;
 }

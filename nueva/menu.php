@@ -1,5 +1,4 @@
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Academia</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
@@ -17,7 +16,6 @@
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Atividades
               </a>
-
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Spinning</a>
                 <a class="dropdown-item" href="#">Jumpp</a>
@@ -29,11 +27,11 @@
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Loja
               </a>
-
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Roupas</a>
+                <a class="dropdown-item" href="roupas.php">Roupas</a>
                 <a class="dropdown-item" href="#">Suplementos</a>
-                <a class="dropdown-item" href="#">Diversos</a>
+                <a class="dropdown-item" href="#">Acessórios</a>
+                <a class="dropdown-item" href="mochilas.php">Mochilas</a>
                 
               </div>
             </li>
@@ -46,4 +44,4 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
           </form>
         </div>
-      </nav>
+    </nav>
