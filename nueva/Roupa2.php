@@ -1,4 +1,4 @@
-<<?php
+<?php
   require_once 'head.php';
   require_once 'menu.php';
 
@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="card" style="width: 18rem;">
-                     <img class="card-img-top" src="img/" alt="Imagem de capa do card">
+                     <img class="card-img-top" src="imagens/roupa1.jpg" alt="Imagem de capa do card">
                      <div class="card-body">
                         <h3 class="card-text">Conjunto Mayra</h3>
                         <p class="card-text">R$ 50,00</p>
@@ -30,7 +30,7 @@
 
             <div class="col-md-3">
                 <div class="card" style="width: 18rem;">
-                     <img class="card-img-top" src="img/roupa1.jpg" alt="Imagem de capa do card">
+                     <img class="card-img-top" src="imagens/roupa1.jpg" alt="Imagem de capa do card">
                      <div class="card-body">
                         <h3 class="card-text">Conjunto Mayra</h3>
                         <p class="card-text">R$ 50,00</p>
@@ -40,7 +40,7 @@
 
             <div class="col-md-3">
             <div class="card" style="width: 18rem;">
-                     <img class="card-img-top" src="img/roupa3.jpg" alt="Imagem de capa do card">
+                     <img class="card-img-top" src="imagens/roupa3.jpg" alt="Imagem de capa do card">
                      <div class="card-body">
                      <h3 class="card-text">Conjunto Mayra</h3>
                         <p class="card-text">R$ 50,00</p>
@@ -50,7 +50,7 @@
 
             <div class="col-md-3">
             <div class="card" style="width: 18rem;">
-                     <img class="card-img-top" src="img/roupa3.jpg" alt="Imagem de capa do card">
+                     <img class="card-img-top" src="imagens/roupa3.jpg" alt="Imagem de capa do card">
                      <div class="card-body">
                         <h3 class="card-text">Conjunto Mayra</h3>
                         <p class="card-text">R$ 50,00</p>
@@ -67,4 +67,3 @@
         require_once 'footer.php';
 
     ?>
- 
