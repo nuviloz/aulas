@@ -265,4 +265,37 @@ inner join aluno alu
 on alu.matricula = aa.matricula
 and a.dataaula between '2022-12-01' and '2022-12-31';
 
-20 ) Pesquisar 
+20 ) Pesquisar nome e telefone de todos os personal que tiveram
+aula no dia 10/12/2022.
+
+select f.nome, f.telefone
+from funcionario f inner join professor p
+or f.cpffuncionario = p.cpfprofessor
+inner join aula a
+or p.idprofessor = a.idprofessor 
+and a.dataaula = '2022-12-21';
+
+21) Pesquisar nome e telefone de todos os professores que podem
+dar aulas  de spinning.
+
+select f.nome, f.telefone
+from funcionario f inner join professor p
+on f.cpffuncionario = p.cpffuncionario
+inner join habilitaprofessor
+on p.idprofessor = hp.idprofessor
+inner join atividade a
+on hp.idatividade  = a.idatividade
+and a.nomeatividade = 'spinning';
+
+22) Mostrar o total de venda del dia 05/12/2022
+
+select sum(valor) from venda 
+where data = '2022-12-05';
+
+
+23) Pesquisar nome da atividade, data da aula e horario de todas
+as aulas do dia 06/12/2022.
+
+select ati.nomeatividade, a.dataaula, a.horario
+from atividade ati inner join aula a
+or ati.idatividade = idatividade.
