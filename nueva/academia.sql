@@ -264,3 +264,5 @@ on ati.idatividade = a.idatividade
 inner join aluno alu
 on alu.matricula = aa.matricula
 and a.dataaula between '2022-12-01' and '2022-12-31';
+
+20 ) Pesquisar 
